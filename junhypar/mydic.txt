@@ -1,0 +1,7 @@
+scanf(&a,&b,&c) == std::cin >>a>>b>>c;
+
+printf("some") == std::cout << "some"
+
+printf("some\nthing %d \n",a) == std::cout << "some" << std::endl << "thing " << a << " "<<std::endl;
+단 "\n"으로 줄바꿈표현도 가능 std::endl로도 줄바꿈은 표현가능인데 몬가다르대 강의더봐야알듯 
+
