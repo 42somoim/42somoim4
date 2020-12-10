@@ -17,7 +17,9 @@ int main()
 			a[i] = 0;
 		else
 		{
-			a[i] = 3*a[i-2] + 2*a[i-4] + 2;
+			a[i] = 3*a[i-2] + 2;
+			for(int j = i-4; j>- 0; j-=2)
+				a[i] += a[j] * 2;
 		}
 	}
 
