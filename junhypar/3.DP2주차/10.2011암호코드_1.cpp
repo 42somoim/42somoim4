@@ -14,6 +14,12 @@ int main()
 	fibo[0] = 1;
 	fibo[1] = 1;
 	cnt[0] = 1;
+	//0하나만들어올때 
+	if(size == 1 && data[0] == '0')
+	{
+		cout << '0';
+		exit(0);
+	}
 	for(int i = 2;i <= size; i++)
 		fibo[i] = (fibo[i-1] + fibo[i-2])%1000000;
 	for(int i = 1; i<size;i++)
