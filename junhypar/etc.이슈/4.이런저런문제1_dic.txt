@@ -1,0 +1,19 @@
+--------------------------------------
+벡터 사용시 헤더 
+#include <vector>
+
+벡터 기본 사용법 정리 링크
+https://blockdmask.tistory.com/70
+
+2차원 벡터 배열처럼 할당하는법
+https://sunnyholic.com/93
+
+벡터 컨테이너 기본설명
+https://modoocode.com/223
+
+-------------------------------------
+알고리즘 사용시 헤더
+#include <algorithm>
+sort알고리즘 사용법
+https://blockdmask.tistory.com/178
+-------------------------------------
