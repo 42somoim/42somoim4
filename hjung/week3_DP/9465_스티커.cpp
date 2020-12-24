@@ -24,7 +24,7 @@ int main()
             }
         }
 
-        //set_initial value
+        //set initial value
         dp[0][0] = 0;
         dp[1][0] = 0;
         dp[0][1] = arr[0][1];
