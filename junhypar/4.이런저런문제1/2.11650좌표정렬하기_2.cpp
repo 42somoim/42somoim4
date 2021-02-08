@@ -9,7 +9,7 @@ typedef struct	qst
 
 void swap(t_qst *data, int i, int j)
 {
-	t_qst a;
+	t_qst a ;
 
 	a = data[i];
 	data[i] = data[j];

@@ -5,7 +5,7 @@ int sot[100001][2];
 
 void merge(int data[][2], int left, int mid, int right)
 {
-	int i,j,k;
+	int i,j,k ;
 	i = left;
 	j = mid+1;
 	k = left;

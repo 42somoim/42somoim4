@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int cnt;
-	cin >> cnt;
+	cin >> cnt ;
 	// int data[cnt][2]의 배열로 선언한것과 같은 벡터선언, 0으로초기화해줌)
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
